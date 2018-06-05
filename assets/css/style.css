@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    background-image: url("c:/u-of-r-code/Course-Homework/TriviaGame/assets/images/classics.jpg");
+    color: azure;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-size: 26px;
+}
+
+.border {
+    background-image: url("c:/u-of-r-code/Course-Homework/TriviaGame/assets/images/jordan.jpg");
+}
