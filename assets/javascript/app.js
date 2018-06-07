@@ -29,7 +29,7 @@ function run(){
 
 function decrement() {
     timeRemaining--;
-    $("#shotclock").html("Shot Clock : "+ timeRemaining + ":00");   
+    $("#shotclock").html("Shot Clock : "+ timeRemaining + " :00");   
     
     if (timeRemaining === 0) {
       stop();
