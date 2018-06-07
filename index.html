@@ -5,11 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hardwood Classics Trivia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
-    <script src ="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src ="assets/javascript/app.js"></script>
 </head>
 <body>
 
@@ -31,247 +28,152 @@
     <div class="border game-border">
         <div class="row">
             <div class="col-md-12">
-                <h1 id="shotclock"></h1>
+                <h1 id="shotclock">Shot Clock :</h1>
+
                 <br>
             </div>
         </div>
     <div class="row">
         <div class="col-md-12">
             <h4>What NBA player won the most career NBA championships ?</h4>
-            <div class="form-check1">
-                <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1"> 
-                <label class="form-check-label" for="exampleRadios1">
-                    Magic Johnson
-                </label>
-            </div>
-            <div class="form-check1">
-                <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                    Michael Jordan
-                </label>
-            </div>
-            <div class="form-check1">
-                <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios3" value="option3">
-                <label class="form-check-label" for="exampleRadios3">
-                    Bill Russell
-                </label>
-            </div>
-            <div class="form-check1">
-                <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios4" value="option4">
-                <label class="form-check-label" for="exampleRadios4">
-                    Larry Bird
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q1" value="Magic Johnson">Magic Johnson 
+            </label>
+            <label>
+                <input type="radio" name="Q1" value="Michael Jordan">Michael Jordan
+            </label>
+            <label>
+                <input type="radio" name="Q1" value="Bill Russell">Bill Russell
+            </label>
+            <label>
+                <input type="radio" name="Q1" value="Larry Bird">Larry Bird
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>Who is the lowest seeded team to win an NBA title ?</h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios5" value="option5">
-                <label class="form-check-label" for="exampleRadios5">
-                    1994-'95 Houston Rockets
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios6" value="option6">
-                <label class="form-check-label" for="exampleRadios6">
-                    2010-'11 Chicago Bulls
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios7" value="option7">
-                <label class="form-check-label" for="exampleRadios7">
-                    2003-'04 Cleveland Cavaliers
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios2" id="exampleRadios8" value="option8">
-                <label class="form-check-label" for="exampleRadios8">
-                    1996-'97 Philladalpia 76ers
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q2" value="1994-95' Houston Rockets">1994-95' Houston Rockets
+            </label>
+            <label>
+                <input type="radio" name="Q2" value="2010-11' Chicago Bulls">2010-11' Chicago Bulls
+            </label>
+            <label>
+                <input type="radio" name="Q2" value="2003-04' Cleveland Cavaliers">2003-04' Cleveland Cavaliers
+            </label>
+            <label>
+                <input type="radio" name="Q2" value="1996-97' Philladalpia 76ers">1996-97' Philladalpia 76ers
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>What NBA player has the most career points ?</h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios9" value="option9">
-                <label class="form-check-label" for="exampleRadios9">
-                    Wilt Chamberlain
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios10" value="option10">
-                <label class="form-check-label" for="exampleRadios10">
-                    Kobe Bryant
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios11" value="option11">
-                <label class="form-check-label" for="exampleRadios11">
-                    Kareem-Abdul Jabar
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios3" id="exampleRadios12" value="option12">
-                <label class="form-check-label" for="exampleRadios12">
-                    Penny Hardaway
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q3" value="Wilt Chamberlain">Wilt Chamberlain
+            </label>
+            <label>
+                <input type="radio" name="Q3" value="Kobe Bryant">Kobe Bryant
+            </label>
+            <label>
+                <input type="radio" name="Q3" value="Kareem-Abdul Jabbar">Kareem-Abdul Jabbar
+            </label>
+            <label>
+                <input type="radio" name="Q3" value="Penny Hardaway">Penny Hardaway
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>What NBA player has the most career assists ?</h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios13" value="option13">
-                <label class="form-check-label" for="exampleRadios13">
-                    Rajon Rondo
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios14" value="option14">
-                <label class="form-check-label" for="exampleRadios1">
-                    Jason Kidd
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios15" value="option15">
-                <label class="form-check-label" for="exampleRadios15">
-                    Steve Nash
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios4" id="exampleRadios16" value="option16">
-                <label class="form-check-label" for="exampleRadios16">
-                    John Stockton
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q4" value="Rajon Rondo">Rajon Rondo
+            </label>
+            <label>
+                <input type="radio" name="Q4" value="Jason Kidd">Jason Kidd
+            </label>
+            <label>
+                <input type="radio" name="Q4" value="Steve Nash">Steve Nash
+            </label>
+            <label>
+                <input type="radio" name="Q4" value="John Stockton">John Stockton
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>What year did the Seattle Supersonics win an NBA Championship ?</h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios17" value="option17">
-                <label class="form-check-label" for="exampleRadios17">
-                    2001-2002.
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios18" value="option18">
-                <label class="form-check-label" for="exampleRadios18">
-                    1978-1979.
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios19" value="option19">
-                <label class="form-check-label" for="exampleRadios19">
-                    1982-1983.
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios5" id="exampleRadios20" value="option20">
-                <label class="form-check-label" for="exampleRadios20">
-                    1996-1997.
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q5" value="2001-2002.">2001-2002.
+            </label>
+            <label>
+                <input type="radio" name="Q5" value="1978-1979.">1978-1979.
+            </label>
+            <label>
+                <input type="radio" name="Q5" value="1982-1983.">1982-1983.
+            </label>
+            <label>
+                <input type="radio" name="Q5" value="1996-1997.">1996-1997.
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>What NBA team has the best record in one season ?</h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios21" value="option21">
-                <label class="form-check-label" for="exampleRadios21">
-                    2013-14' Miami Heat
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios22" value="option22">
-                <label class="form-check-label" for="exampleRadios22">
-                    1999'2000 Los Angelos Lakers
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios23" value="option23">
-                <label class="form-check-label" for="exampleRadios23">
-                    2015-16' Golden State Warriors
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios6" id="exampleRadios24" value="option24">
-                <label class="form-check-label" for="exampleRadios24">
-                    1994-95 Orlando Magic
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q6" value="2013-14' Miami Heat">2013-14' Miami Heat
+            </label>
+            <label>
+                <input type="radio" name="Q6" value="1999-2000' Los Angelos Lakers">1999-2000' Los Angelos Lakers
+            </label>
+            <label>
+                <input type="radio" name="Q6" value="2015-16' Golden State Warriors">2015-16' Golden State Warriors
+            </label>
+            <label>
+                <input type="radio" name="Q6" value="1994-95' Orlando Magic">1994-95' Orlando Magic
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>What NBA player has the most blocked shots in one season ? </h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios25" value="option25">
-                <label class="form-check-label" for="exampleRadios25">
-                    Shaquille O'Neal
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios26" value="option26">
-                <label class="form-check-label" for="exampleRadios26">
-                    Mark Eaton
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios27" value="option27">
-                <label class="form-check-label" for="exampleRadios27">
-                    Oscar Roberson
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios7" id="exampleRadios28" value="option28">
-                <label class="form-check-label" for="exampleRadios28">
-                    Mutombo Dikembe
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q7" value="Shaquille O'Neal">Shaquille O'Neal
+            </label>
+            <label>
+                <input type="radio" name="Q7" value="Mark Eaton">Mark Eaton
+            </label>
+            <label>
+                <input type="radio" name="Q7" value="Oscar Roberson">Oscar Roberson
+            </label>
+            <label>
+                <input type="radio" name="Q7" value="Mutombo Dikembe">Mutombo Dikembe
+            </label>
         </div>
     </div>
     <br>
     <div class="row">
         <div class="col-md-12">
             <h4>What team drafted Kobe Bryant ?</h4>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios29" value="option29">
-                <label class="form-check-label" for="exampleRadios29">
-                    Charlotte Hornets
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios30" value="option30">
-                <label class="form-check-label" for="exampleRadios30">
-                    Los Angelos Lakers
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios31" value="option31">
-                <label class="form-check-label" for="exampleRadios31">
-                    Detroit Pistons
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios8" id="exampleRadios32" value="option32">
-                <label class="form-check-label" for="exampleRadios32">
-                    San Antonio Spurs
-                </label>
-            </div>
+            <label>
+                <input type="radio" name="Q8" value="Charlotte Hornets">Charlotte Hornets
+            </label>
+            <label>
+                <input type="radio" name="Q8" value="Los Angelos Lakers">Los Angelos Lakers
+            </label>
+            <label>
+                <input type="radio" name="Q8" value="Detroit Pistons">Detroit Pistons
+            </label>
+            <label>
+                <input type="radio" name="Q8" value="San Antonio Spurs">San Antonio Spurs
+            </label>
         </div>
     </div>
     </div>
@@ -285,9 +187,11 @@
             <h3 id="right"></h3>
             <h3 id="wrong"></h3>
             <h3 id="unanswered"></h3>
-            <button type="button" class="btn btn-danger btn-lg" button id ="restartbutton">PLAY AGAIN !</button>
+            <button type="button" class="btn btn-danger btn-lg" button id ="restartbutton" value="PLAY AGAIN !" onClick="window.location.reload()">PLAY AGAIN !</button>
         </div>
     </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
