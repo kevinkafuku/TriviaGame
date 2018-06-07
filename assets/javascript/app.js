@@ -29,7 +29,7 @@ function run(){
 
 function decrement() {
     timeRemaining--;
-    $("#shotclock").html("Shot Clock : "+ timeRemaining + " :00");   
+    $("#shotclock").html("Shot Clock : 00:"+ timeRemaining);   
     
     if (timeRemaining === 0) {
       stop();
@@ -46,14 +46,14 @@ function decrement() {
     $(".game-border").hide();
     $(".my-border3").show();
 
-    var Q1 = $('input:radio[name="Q1"]').val();
-	var Q2 = $('input:radio[name="Q2"]').val();
-	var Q3 = $('input:radio[name="Q3"]').val();
-	var Q4 = $('input:radio[name="Q4"]').val();
-	var Q5 = $('input:radio[name="Q5"]').val();
-    var Q6 = $('input:radio[name="Q6"]').val();
-    var Q7 = $('input:radio[name="Q7"]').val();
-    var Q8 = $('input:radio[name="Q8"]').val();
+    var Q1 = $('input:radio[name="Q1"]:checked').val();
+	var Q2 = $('input:radio[name="Q2"]:checked').val();
+	var Q3 = $('input:radio[name="Q3"]:checked').val();
+	var Q4 = $('input:radio[name="Q4"]:checked').val();
+	var Q5 = $('input:radio[name="Q5"]:checked').val();
+    var Q6 = $('input:radio[name="Q6"]:checked').val();
+    var Q7 = $('input:radio[name="Q7"]:checked').val();
+    var Q8 = $('input:radio[name="Q8"]:checked').val();
 
     function checkAnswers(questionName, answer){
       if(questionName == undefined){
@@ -68,13 +68,13 @@ function decrement() {
   
     }
 
-    checkAnswers(Q1, "Bill Russel");
-    checkAnswers(Q2, "1994-'95 Houston Rockets");
+    checkAnswers(Q1, "Bill Russell");
+    checkAnswers(Q2, "1994-95' Houston Rockets");
     checkAnswers(Q3, "Kareem-Abdul Jabbar");
     checkAnswers(Q4, "John Stockton");
-    checkAnswers(Q5, "False");
-    checkAnswers(Q6, "1978-1979.");
-    checkAnswers(Q7, "2015-16' Golden State Warriors");
+    checkAnswers(Q5, "1978-1979.");
+    checkAnswers(Q6, "2015-16' Golden State Warriors");
+    checkAnswers(Q7, "Mark Eaton");
     checkAnswers(Q8, "Charlotte Hornets");
     
 
